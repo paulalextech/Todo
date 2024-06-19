@@ -5,4 +5,14 @@ Console.WriteLine("[A]dd a todo");
 Console.WriteLine("[R]emove a todo");
 Console.WriteLine("[E]xit?");
 
+
+var userChoice = Console.ReadLine();
+
+switch(userChoice) 
+{
+    case "E";
+    case "e";
+        Console.WriteLine("Exit");
+}
+
 Console.ReadKey();

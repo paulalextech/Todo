@@ -1,4 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello");
+
+bool shallExit = false;
+while(!shallExit)
+{
+
 Console.WriteLine("What do you want to do?");
 Console.WriteLine("[S]ee all todos");
 Console.WriteLine("[A]dd a todo");
@@ -27,10 +33,11 @@ switch(userChoice)
         Console.WriteLine("Remove a TODO");
         break;
     default:
-    Console.WriteLine("Invalid choice");
+        Console.WriteLine("Invalid choice");
         break;
-
-
+    }
 }
+
+
 
 Console.ReadKey();

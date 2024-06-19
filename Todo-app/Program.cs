@@ -18,7 +18,7 @@ switch(userChoice)
 {
     case "E";
     case "e";
-        Console.WriteLine("Exit");
+        shallExit = true;
         break;
     case "S";
     case "s";

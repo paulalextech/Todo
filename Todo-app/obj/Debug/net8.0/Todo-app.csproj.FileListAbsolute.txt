@@ -1,0 +1,5 @@
+/Users/paulsteane/Desktop/Todo-List/Todo-app/obj/Debug/net8.0/Todo-app.GeneratedMSBuildEditorConfig.editorconfig
+/Users/paulsteane/Desktop/Todo-List/Todo-app/obj/Debug/net8.0/Todo-app.AssemblyInfoInputs.cache
+/Users/paulsteane/Desktop/Todo-List/Todo-app/obj/Debug/net8.0/Todo-app.AssemblyInfo.cs
+/Users/paulsteane/Desktop/Todo-List/Todo-app/obj/Debug/net8.0/Todo-app.csproj.CoreCompileInputs.cache
+/Users/paulsteane/Desktop/Todo-List/Todo-app/obj/Debug/net8.0/Todo-app.sourcelink.json

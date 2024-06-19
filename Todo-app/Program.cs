@@ -13,6 +13,24 @@ switch(userChoice)
     case "E";
     case "e";
         Console.WriteLine("Exit");
+        break;
+    case "S";
+    case "s";
+        Console.WriteLine("See all TODOs");
+        break;
+    case "A";
+    case "a";
+        Console.WriteLine("Add a TODO");
+        break;
+    case "R";
+    case "r";
+        Console.WriteLine("Remove a TODO");
+        break;
+    default:
+    Console.WriteLine("Invalid choice");
+        break;
+
+
 }
 
 Console.ReadKey();

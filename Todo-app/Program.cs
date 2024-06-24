@@ -23,7 +23,7 @@ switch(userChoice)
         break;
     case "S":
     case "s":
-        Console.WriteLine("See all TODOs");
+        SeeAllTodos();
         break;
     case "A":
     case "a":
@@ -63,4 +63,16 @@ void AddTodo()
             todos.Add(description);
         }
     }
+}
+
+void SeeAllTodos()
+{
+    if(todos.Count == 0)
+    {
+        Console.WriteLine("No TODOs have been added yet.");
+    }
+        foreach(var todo in todos)
+        {
+            Console.WriteLine(todo);
+        }
 }

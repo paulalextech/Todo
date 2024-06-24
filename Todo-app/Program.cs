@@ -1,4 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿var todos = new List<string>();
+
 Console.WriteLine("Hello");
 
 bool shallExit = false;
@@ -26,7 +27,7 @@ switch(userChoice)
         break;
     case "A";
     case "a";
-        Console.WriteLine("Add a TODO");
+        AddTodo();
         break;
     case "R";
     case "r";
@@ -38,6 +39,23 @@ switch(userChoice)
     }
 }
 
-
-
 Console.ReadKey();
+
+void AddTodo()
+{
+    Console.WriteLine("Enter the TODO description");
+    var description = Console.ReadLine();
+
+    if(description == "")
+    {
+        Console.WriteLine("The description cannot be empty");
+    }
+    else if(todos.Contains(description))
+    {
+        Console.WriteLine("the description must be unique.");
+    }
+    else
+    {
+        todos.Add(description);
+    }
+}

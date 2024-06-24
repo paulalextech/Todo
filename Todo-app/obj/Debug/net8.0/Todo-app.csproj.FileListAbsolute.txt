@@ -3,3 +3,13 @@
 /Users/paulsteane/Desktop/Todo-List/Todo-app/obj/Debug/net8.0/Todo-app.AssemblyInfo.cs
 /Users/paulsteane/Desktop/Todo-List/Todo-app/obj/Debug/net8.0/Todo-app.csproj.CoreCompileInputs.cache
 /Users/paulsteane/Desktop/Todo-List/Todo-app/obj/Debug/net8.0/Todo-app.sourcelink.json
+/Users/paulsteane/Desktop/Todo-List/Todo-app/bin/Debug/net8.0/Todo-app
+/Users/paulsteane/Desktop/Todo-List/Todo-app/bin/Debug/net8.0/Todo-app.deps.json
+/Users/paulsteane/Desktop/Todo-List/Todo-app/bin/Debug/net8.0/Todo-app.runtimeconfig.json
+/Users/paulsteane/Desktop/Todo-List/Todo-app/bin/Debug/net8.0/Todo-app.dll
+/Users/paulsteane/Desktop/Todo-List/Todo-app/bin/Debug/net8.0/Todo-app.pdb
+/Users/paulsteane/Desktop/Todo-List/Todo-app/obj/Debug/net8.0/Todo-app.dll
+/Users/paulsteane/Desktop/Todo-List/Todo-app/obj/Debug/net8.0/refint/Todo-app.dll
+/Users/paulsteane/Desktop/Todo-List/Todo-app/obj/Debug/net8.0/Todo-app.pdb
+/Users/paulsteane/Desktop/Todo-List/Todo-app/obj/Debug/net8.0/Todo-app.genruntimeconfig.cache
+/Users/paulsteane/Desktop/Todo-List/Todo-app/obj/Debug/net8.0/ref/Todo-app.dll

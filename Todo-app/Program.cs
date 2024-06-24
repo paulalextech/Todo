@@ -17,20 +17,20 @@ var userChoice = Console.ReadLine();
 
 switch(userChoice) 
 {
-    case "E";
-    case "e";
+    case "E":
+    case "e":
         shallExit = true;
         break;
-    case "S";
-    case "s";
+    case "S":
+    case "s":
         Console.WriteLine("See all TODOs");
         break;
-    case "A";
-    case "a";
+    case "A":
+    case "a":
         AddTodo();
         break;
-    case "R";
-    case "r";
+    case "R":
+    case "r":
         Console.WriteLine("Remove a TODO");
         break;
     default:
@@ -62,4 +62,5 @@ void AddTodo()
             isValidDescription = true;
             todos.Add(description);
         }
+    }
 }
